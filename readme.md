@@ -21,12 +21,12 @@ The org hierarchy may get created like this.
 
 Here is the Groups list.
 
-<img src="images/img13-groups.png.png">
+<img src="images/img13-groups.png">
 
 
 Here is the Locations list.
 
-<img src="images/img14-locations.png.png">
+<img src="images/img14-locations.png">
 
 #### Create Accounts and Data
 
@@ -52,7 +52,7 @@ You can see the Factor set applied for this account.
 
 <img src="images/img20-emission1.png">
 <img src="images/img20-emission2.png">
-<img src="images/img20-emission2.png">
+<img src="images/img20-emission3.png">
 
 ## 5. Custom Factors
 
