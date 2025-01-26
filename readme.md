@@ -1,34 +1,31 @@
 # Envizi Travel Use case
 
-In this article lets explore about  How to create travel use case related data, reports and disclosures.G
+In this article lets explore about  How to create travel use case related data, reports and disclosures.
 
 IBM Envizi ESG Suite is an ESG data management platform. 
 
 In this article lets explore how Envizi is helping to manage ESG Data for the Travel Industry.
 
-The `Royal Horizon Travel` is an UK based organization they operate both Air Craft and Vessel. They want to capture thier ESG Data in the Envizi Platform, do the analysis, create reports and disclosures and execute thier decarbonization strategy.
+The `Royal Horizon Travel` is an UK based organization they operate both Air Craft and Vessel. They want to capture their ESG Data in the Envizi Platform, do the analysis, create reports and disclosures and execute their decarbonization strategy.
 
 <img src="images/img-0-archi.png">
 
-Lets explore how they can use Envizi to achieve thier plan.
+Lets explore how they can use Envizi to achieve their plan.
 
 In this article we cover the following topics.
 
 1. Define and Create Organization Hierarchy
 2. Create and Load account data
 3. Review the Account Summary, 
-4. Reivew the Organization Perforamnce and Emission Performance
+4. Review the Organization Performance and Emission Performance
 5. Custom Emission Factors
 6. Programs Setup and Actions
 7. Targets setting and Tracking
-8. Sustainablity Reporting Manager
+8. Sustainability Reporting Manager
 9. Scope 3 Emission Report
-10. Monthly Data Summary extrac report
+10. Monthly Data Summary extract report
 11. Sustainability Executive Report
 12. Account styles
-
-
-, planning, and reporting become integral to business processes, they must also adhere to stringent standards.
 
 
 ## 1 Data Model
