@@ -1,6 +1,35 @@
 # Envizi Travel Use case
 
-In this article lets explore about the How to create travel use case related data, reports and disclosures.
+In this article lets explore about  How to create travel use case related data, reports and disclosures.G
+
+IBM Envizi ESG Suite is an ESG data management platform. 
+
+In this article lets explore how Envizi is helping to manage ESG Data for the Travel Industry.
+
+The `Royal Horizon Travel` is an UK based organization they operate both Air Craft and Vessel. They want to capture thier ESG Data in the Envizi Platform, do the analysis, create reports and disclosures and execute thier decarbonization strategy.
+
+<img src="images/img-0-archi.png">
+
+Lets explore how they can use Envizi to achieve thier plan.
+
+In this article we cover the following topics.
+
+1. Define and Create Organization Hierarchy
+2. Create and Load account data
+3. Review the Account Summary, 
+4. Reivew the Organization Perforamnce and Emission Performance
+5. Custom Emission Factors
+6. Programs Setup and Actions
+7. Targets setting and Tracking
+8. Sustainablity Reporting Manager
+9. Scope 3 Emission Report
+10. Monthly Data Summary extrac report
+11. Sustainability Executive Report
+12. Account styles
+
+
+, planning, and reporting become integral to business processes, they must also adhere to stringent standards.
+
 
 ## 1 Data Model
 
@@ -134,7 +163,7 @@ The detailed scope 2 table (1) is available here.
 The detailed scope 3 table (1) is available here.
 <img src="images/img20-emission-performance-5.png">
 
-## 5. Custom Factors
+## 5. Custom Emission Factors
 
 The custom emission factors can be created like this.
 
@@ -156,7 +185,7 @@ The above information in the edit screen.
 <img src="images/img30-custom-factor-2.png">
 <img src="images/img30-custom-factor-3.png">
 
-## 6. Programs
+## 6. Programs and Actions
 
 The Programs, Actions Plans and Actions can be created like this for the decarbonization.
 
@@ -175,7 +204,7 @@ The list of actions available here.
 The action name (1), the associated location (2) and data type (3) are highlighted here.
 <img src="images/img35-programs-3-action-1.png">
 
-## 7. Targets
+## 7. Targets Setting and Tracking
 
 The Targets can be created like this.
 
@@ -187,7 +216,7 @@ The full period target data is available here.
 The monthly target data is available here.
 <img src="images/img40-targets-4.png">
 
-## 7. SRM
+## 8. Sustainability Reporting Manager
 
 The sustainability reporting manager shows the list of sustainability disclosure reports.
 
@@ -214,8 +243,7 @@ A detailed view of a question is displayed here.
 <img src="images/img45-srm-3-question-4.png">
 
 
-
-## 8. Scope 3
+## 9. Scope 3 Emission Report
 
 The Scope 3 Emissions report is available here.
 
@@ -241,7 +269,7 @@ Datatype wise graph is shown here.
 
 <img src="images/img50-scope3-emissions-3.png">
 
-## 9. Monthly Data Summary 
+## 10. Monthly Data Summary Report
 
 You can select the appropriate filter to choose the Monthly Data Summary report.
 
@@ -254,7 +282,7 @@ It shows the report here.
 The monthly data is shown here.
 <img src="images/img55-monthly-data-summary-report-3.png">
 
-## 10. Sustainability Executive Report
+## 11. Sustainability Executive Report
 
 The Sustainability Executive Report is available here.
 
@@ -276,8 +304,7 @@ Here is the Wastage details.
 
 <img src="images/img60-sus-executive-report-4.png">
 
-
-## 11. Account style
+## 12. Account style
 
 The Account styles is available here.
 
@@ -291,10 +318,3 @@ Here is the details of the account styles created.
 <img src="images/img70-acc-style-3.png">
 <img src="images/img70-acc-style-4.png">
 <img src="images/img70-acc-style-5.png">
-
-## 12. Account Performance
-
-The Account level Performance  is available here.
-
-<img src="images/img71-account-performance-1.png">
-<img src="images/img71-account-performance-2.png">
