@@ -1,11 +1,10 @@
-# Envizi Travel Usecase
+# Envizi Travel Use case
 
-In this article lets explore about the How to create travel usecase related data, reports and disclosures.
+In this article lets explore about the How to create travel use case related data, reports and disclosures.
 
 ## 1 Data Model
 
 We are going to create a data model like this. 
-
 
 <img src="images/img11-data-model.png">
 
@@ -13,7 +12,7 @@ We are going to create a data model like this.
 
 #### Create Org Hierarchy 
 
-1. Create the org hierarchy by uploding this setup config excel [file](./files/Envizi_SetupConfig_RHT.xlsx) (change the file content according do you need)
+1. Create the org hierarchy by uploading this setup config excel [file](./files/Envizi_SetupConfig_RHT.xlsx) (change the file content according do you need)
 
 The file upload status would be like this.
 <img src="images/img90-file-upload-1.png">
@@ -28,7 +27,7 @@ The below location get created and available in the Location screen.
 
 #### Create Accounts and Data
 
-1. Create the Accounts and Data by uploding the below files.
+1. Create the Accounts and Data by uploading the below files.
 
 - [POCAccountSetupandDataLoad_RHT.xlsx](./files/POCAccountSetupandDataLoad_RHT.xlsx)
 - [Account_Setup_and_Data_Load_-_PM&C-RHT.xlsx](./files/POCAccountSetupandDataLoad_RHT.xlsx)  . Replace the `Organization Link`,    `Organization` and `Account Style Link` columns according to your environment.
@@ -51,9 +50,9 @@ The account summary will look like this.
 
 You can observe the following.
 - Account Name (1)
-- Account style of the acount (2)
+- Account style of the account (2)
 - Total consumption (3)
-- Monthwise consumption (4)
+- Month wise consumption (4)
 - Records entered for the last 12 months (5)
 
 <img src="images/img16-account-summary-1.png">
@@ -90,7 +89,7 @@ You can observe the following.
 
 ### 3.1 Org Level Performance 
 
-The peformance dashboard shows the emission details for the entire organization. Here the filter is applied to the group `Royal Horizon Travel`
+The performance dashboard shows the emission details for the entire organization. Here the filter is applied to the group `Royal Horizon Travel`
 
 You can observe the following.
 - Groups filter (1)
@@ -117,11 +116,11 @@ The Account level Performance is available here.
 
 ## 4. View the Emission Performance
 
-The emission peformance dashboard shows the emission details for the entire organization. This shows the scopewise split up.
+The emission performance dashboard shows the emission details for the entire organization. This shows the scope wise split up.
 
 Here the filter is applied to the group `Royal Horizon Travel`
 
-You can see the Total emissions (1), scope splitup (2) and  other details.
+You can see the Total emissions (1), scope split-up (2) and  other details.
 
 <img src="images/img20-emission-performance-1.png">
 <img src="images/img20-emission-performance-2.png">
@@ -173,7 +172,7 @@ The list of action plan available here.
 
 The list of actions available here.
 
-The action name (1), the assoicated location (2) and data type (3) are highlighted here.
+The action name (1), the associated location (2) and data type (3) are highlighted here.
 <img src="images/img35-programs-3-action-1.png">
 
 ## 7. Targets
@@ -232,7 +231,7 @@ Click on the `Select a category to enable drill through navigation` (5) button t
 
 <img src="images/img50-scope3-emissions-1.png">
 
-It shows the `Scope 3 - Categroy 7 employee commuting` details.
+It shows the `Scope 3 - Category 7 employee commuting` details.
 
 Location wise details available here.
 
@@ -255,9 +254,9 @@ It shows the report here.
 The monthly data is shown here.
 <img src="images/img55-monthly-data-summary-report-3.png">
 
-## 10. Sustainablity Executive Report
+## 10. Sustainability Executive Report
 
-The Sustainablity Executive Report report is available here.
+The Sustainability Executive Report is available here.
 
 It shows the Emissions (1), Energy (2), Waste (3) and other details.
 
@@ -265,7 +264,7 @@ It shows the Emissions (1), Energy (2), Waste (3) and other details.
 
 The emissions page shows the `scope 1`  (1), ` scope 2`  (2), ` scope 3`  (3) emission details here.
 
-It also shows the locationwise (4) details.
+It also shows the location wise (4) details.
 
 <img src="images/img60-sus-executive-report-2.png">
 
@@ -282,7 +281,7 @@ Here is the Wastage details.
 
 The Account styles is available here.
 
-Here is the list of account style available. It shows the the different account style with `scope`, `data type` and etc.
+Here is the list of account style available. It shows the different account style with `scope`, `data type` and etc.
 <img src="images/img70-acc-style-1.png">
 
 We have created 3 custom account styles.
