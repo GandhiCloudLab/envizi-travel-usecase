@@ -1,16 +1,36 @@
-# Envizi Travel Use case
+# IBM Envizi for Travel and Transportation
 
-In this article lets explore about  How to create travel use case related data, reports and disclosures.
+The transportation sector is a major contributor to global greenhouse gases. And over the past decade, governments and private businesses have been cooperating to create a more sustainable infrastructure for moving people and materials across our planet.
 
-IBM Envizi ESG Suite is an ESG data management platform. 
+The `Royal Horizon Travel` has committed to being carbon netural in their operations by 2040. This will require 
 
-In this article lets explore how Envizi is helping to manage ESG Data for the Travel Industry.
+#### Business Need:
 
-The `Royal Horizon Travel` is an UK based organization they operate both Air Craft and Vessel. They want to capture their ESG Data in the Envizi Platform, do the analysis, create reports and disclosures and execute their decarbonization strategy.
+- Improve visibility enhace tracking and montioring their ESG data
+- Lower the tracking efforts as it is relied heavily on manual data collection and processing
+- Reduce Carbon Emission to meet their netzero targets
+- Lower the fuel consumption
+- Reduct waste
+- Seamless Reporting to disclose to various regulations
+
+**Persona 1:** CEO, Chief Sustainability Officer, Sustainability Manager, CFO, Chief Procurement Officer  
+**Persona 2:** VP or Director of Quality, Head of Operation
+**Persona 3:** CIO, CTO (IT Manager, IT Director)
+
+#### Solution  : 
+
+IBM Envizi to simplify consolidation, analysis and management of siloed data sources for sustainability reporting frameworks, manage stakeholders and meet sustainability goals 
+
+The asset showcases how IBM Envizi to help automate, capture, and structure your data based on greenhouse gas emissions from your operations including your vendors and contractors. Generate reports according to new regulations and standards, and support decarbonisation initiatives across the value chain and accelerate your decarbonisation journey. This will enable the CSO to make sustainability-led decisions that support decarbonisation. 
+
+#### Business Impact :
+- Centralized ESG-tracking 
+- Reduced GHG Emissions,  
+- Ease of capturing, benchmarking. 
+- Enables the CSO’s to track and report  on GHG Emissions aligning to different regulatory frameworks.
+
 
 <img src="images/img-0-archi.png">
-
-Lets explore how they can use Envizi to achieve their plan.
 
 In this article we cover the following topics.
 
@@ -58,7 +78,7 @@ The below location get created and available in the Location screen.
 - [POCAccountSetupandDataLoad_RHT.xlsx](./files/POCAccountSetupandDataLoad_RHT.xlsx)
 - [Account_Setup_and_Data_Load_-_PM&C-RHT.xlsx](./files/POCAccountSetupandDataLoad_RHT.xlsx)  . Replace the `Organization Link`,    `Organization` and `Account Style Link` columns according to your environment.
 
-<img src="images/img90-file-upload-1.png">
+<img src="images/img90-file-upload-2.png">
 
 The below accounts get created and available in Accounts screen.
 
@@ -150,15 +170,17 @@ You can see the Total emissions (1), scope split-up (2) and  other details.
 
 <img src="images/img20-emission-performance-1.png">
 <img src="images/img20-emission-performance-2.png">
-
-The detailed scope 1 table (1) is available here.
 <img src="images/img20-emission-performance-3.png">
 
-The detailed scope 2 table (1) is available here.
+The detailed scope 1 table (1) is available here.
 <img src="images/img20-emission-performance-4.png">
 
-The detailed scope 3 table (1) is available here.
+The detailed scope 2 table (1) is available here.
 <img src="images/img20-emission-performance-5.png">
+
+The detailed scope 3 table (1) is available here.
+<img src="images/img20-emission-performance-6.png">
+
 
 ## 5. Custom Emission Factors
 
