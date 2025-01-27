@@ -2,7 +2,7 @@
 
 The transportation sector is a major contributor to global greenhouse gases. And over the past decade, governments and private businesses have been cooperating to create a more sustainable infrastructure for moving people and materials across our planet.
 
-The `Royal Horizon Travel` has committed to being carbon netural in their operations by 2040. This will require 
+The `Royal Horizon Travel` has committed to being carbon netural in their operations by 2040.
 
 #### Business Need:
 
@@ -29,9 +29,6 @@ The asset showcases how IBM Envizi to help automate, capture, and structure your
 - Ease of capturing, benchmarking. 
 - Enables the CSO’s to track and report  on GHG Emissions aligning to different regulatory frameworks.
 
-
-<img src="images/img-0-archi.png">
-
 In this article we cover the following topics.
 
 1. Define and Create Organization Hierarchy
@@ -47,8 +44,11 @@ In this article we cover the following topics.
 11. Sustainability Executive Report
 12. Account styles
 
-
 ## 1 Data Model
+
+The typical data managed by the `Royal Horizon Travel` would be like this.
+
+<img src="images/img-0-archi.png">
 
 We are going to create a data model like this. 
 
