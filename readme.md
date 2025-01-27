@@ -184,6 +184,8 @@ The detailed scope 3 table (1) is available here.
 
 ## 5. Custom Emission Factors
 
+#### Create Custom Emission Factor 
+
 The custom emission factors can be created like this.
 
 You can observe the following.
@@ -195,14 +197,16 @@ You can observe the following.
 
 <img src="images/img30-custom-factor-1.png">
 
-The above information in the edit screen.
-- Region of the custom factor belongs to (1)
-- The data type it belongs to (2)
-- The total emission value of the Data type (3)
-- The effective period of the factor (4)
+#### Account Monthly Data
 
-<img src="images/img30-custom-factor-2.png">
-<img src="images/img30-custom-factor-3.png">
+The above created Emission factor is mapped to the Account based on the Region, effective date.
+
+- Account : `RHT-Aircraft-Hangars-London-Electricity` (1) 
+- Emission Factor : ` RHT-CF-UK-Factor-Electricity`  (2), (5)
+- Factor value : 0.8 (3), (6)
+- Region : UK (4)
+
+<img src="images/img30-custom-factor-4.png">
 
 ## 6. Programs and Actions
 
