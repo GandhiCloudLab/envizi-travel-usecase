@@ -14,7 +14,9 @@ The `Royal Horizon Travel` has committed to being carbon netural in their operat
 - Seamless Reporting to disclose to various regulations
 
 **Persona 1:** CEO, Chief Sustainability Officer, Sustainability Manager, CFO, Chief Procurement Officer  
+
 **Persona 2:** VP or Director of Quality, Head of Operation
+
 **Persona 3:** CIO, CTO (IT Manager, IT Director)
 
 #### Solution  : 
@@ -327,12 +329,16 @@ Here is the Wastage details.
 
 <img src="images/img60-sus-executive-report-4.png">
 
-## 12. Account style
+## 12. Account styles
 
-The Account styles is available here.
+#### Account style
 
-Here is the list of account style available. It shows the different account style with `scope`, `data type` and etc.
+Here is the list of account styles available in this instance of Envizi.
+
+It shows the different account style with `scope`, `data type` and etc.
 <img src="images/img70-acc-style-1.png">
+
+#### Custom Account Style
 
 We have created 3 custom account styles.
 <img src="images/img70-acc-style-2.png">
@@ -341,3 +347,9 @@ Here is the details of the account styles created.
 <img src="images/img70-acc-style-3.png">
 <img src="images/img70-acc-style-4.png">
 <img src="images/img70-acc-style-5.png">
+
+#### Custom Account Style and Account Mapping
+
+The custom account styles are mapped to few Accounts here.
+
+<img src="images/img70-acc-style-6.png">
