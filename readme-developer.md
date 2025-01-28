@@ -41,15 +41,19 @@ This article covers the following topics.
 - Sustainability Reporting Manager
 - View Reports 
 
+## Prerequisites
+
+- Ensure you have access to an Envizi instance with `System Administrator` role and `Account Style Wizard` is enabled.
+
 ## 1 Data Model
 
 The typical data managed by the `Royal Horizon Travel` would be like this.
 
-<img src="images/img-0-archi.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/lN6YI0gOtZ_Z_exGhUkYtw/img-0-archi.png)
 
 We are going to create a data model like this. 
 
-<img src="images/img11-data-model.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/hPOJtMjZEZd9r3R9m-PkRg/img11-data-model.png)
 
 ## 2 Create Account styles, Groups, Locations, Accounts and Data
 
@@ -58,7 +62,7 @@ We are going to create a data model like this.
 Here is the list of existing account styles in Envizi.
 
 It shows the different account style with `scope`, `data type` and etc.
-<img src="images/img70-acc-style-1.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/6lm3TRXu_1pXivcW4YVGzQ/img70-acc-style-1.png)
 
 1. Create the below 3 custom account styles along with the given Data type
 
@@ -66,49 +70,49 @@ It shows the different account style with `scope`, `data type` and etc.
     - Cus-S3-Paper-and-Cardboard-[t]                          ---         Waste - Paper and Cardboard [t]
     - Cus-S3-Waste-Recycled-[kg]                              ---         Waste Recycled - Mixed Recyclables [kg]
 
-    <img src="images/img70-acc-style-2.png">
+    ![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/GaOqJJ-6svARqBudP-jmtA/img70-acc-style-2.png)
 
     The details of the account styles would looks like this.
-    <img src="images/img70-acc-style-3.png">
-    <img src="images/img70-acc-style-4.png">
-    <img src="images/img70-acc-style-5.png">
+    ![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/Q6jx9GgGDqiah2izka2ESA/img70-acc-style-3.png)
+    ![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/4Pm7Ao9K54Yd8bfAqK4-Uw/img70-acc-style-4.png)
+    ![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/KreDHUSbpSGo4SKSi-qRGg/img70-acc-style-5.png)
 
 ### 2.2 Create Groups and Locations
 
 1. Replace the `Organization` columns in the below file according to your environment.
 
-    - [Envizi_SetupConfig_RHT.xlsx](./files/Envizi_SetupConfig_RHT.xlsx)
+    - [Envizi_SetupConfig_RHT.xlsx](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/N-OMOOq3awwYz4Wtew4trw/Envizi-SetupConfig-RHT.xlsx)
 
 2. Create the Groups and Locations by uploading the above file.
 
     The status of the uploaded file will appear as below.
 
-    <img src="images/img90-file-upload-1.png">
+    ![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/iVg1SGPBBBt1bRWGuppGGQ/img90-file-upload-1.png)
 
     The groups are created and displayed on the Groups screen
 
-    <img src="images/img13-groups.png">
+    ![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/nIr8gZLRw01rqVZt7TFznA/img13-groups.png)
 
     The locations are created and displayed on the Location screen
 
-    <img src="images/img14-locations.png">
+    ![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/lNrRkk3cAjtq64XVrgsP_Q/img14-locations.png)
 
 ### 2.3 Create Accounts and Data
 
 1. Replace the `Organization Link`, `Organization` and `Account Style Link` columns in the below file according to your environment.
 
-    - [POCAccountSetupandDataLoad_RHT.xlsx](./files/POCAccountSetupandDataLoad_RHT.xlsx)
-    - [Account_Setup_and_Data_Load_-_PM&C-RHT.xlsx](./files/POCAccountSetupandDataLoad_RHT.xlsx). 
+    - [POCAccountSetupandDataLoad_RHT.xlsx](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/1f7Cj9TfCfiyxvNaRDhE1Q/POCAccountSetupandDataLoad-RHT.xlsx)
+    - [Account_Setup_and_Data_Load_-_PM&C-RHT.xlsx](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/QzY8mkrdlxCdiuxz_x3jTw/Account-Setup-and-Data-Load---PM-C-RHT.xlsx). 
 
-2. Upload the above files in Envizi to create the Accounts and Data. 
+2. Upload the above files in Envizi to create the Accounts and Data.
 
     The status of the uploaded file will appear as below.
 
-    <img src="images/img90-file-upload-2.png">
+    ![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/bqh2kkT0q2Sk8jm9HsKzeg/img90-file-upload-2.png)
 
     The below accounts are created and available on the Accounts screen.
 
-    <img src="images/img15-accounts.png">
+    ![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/KYKAeRwyaDJ7YybmllAxfg/img15-accounts.png)
 
 ## 3. View Dashboards
 
@@ -116,7 +120,7 @@ It shows the different account style with `scope`, `data type` and etc.
 
 The organizational hierarchy with the newly created Groups, Locations, and Accounts will look like this.
 
-<img src="images/img12-org-hierarchy.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/Ka59DsGHOGZoAj87MRyjwA/img12-org-hierarchy.png)
 
 ###  3.2 View Account Summary
 
@@ -131,8 +135,8 @@ The organizational hierarchy with the newly created Groups, Locations, and Accou
     - Month wise consumption (4)
     - Records entered for the last 12 months (5)
 
-    <img src="images/img16-account-summary-1.png">
-    <img src="images/img16-account-summary-2.png">
+    ![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/C8yk86KszQ1rQKSosON13g/img16-account-summary-1.png)
+    ![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/ShZtQArkEV1Vn-KDzjBjtA/img16-account-summary-2.png)
 
 #### Records
 
@@ -140,7 +144,7 @@ The Records page lists all the records created for this account.
 
 It contains information such as the start period, end period (1), and quantity (2).
 
-<img src="images/img16-account-summary-3.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/ML6UHZCmD11_i9o8nWQpWA/img16-account-summary-3.png)
 
 #### Monthly Data
 
@@ -158,7 +162,7 @@ You can observe the following.
 - The emission factor of the data type (7)
 - Factor source (8)
 
-<img src="images/img16-account-summary-4.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/TNCf3kIbuekN2sUbHuFsgA/img16-account-summary-4.png)
 
 
 ### 3.3 View Org Level Performance 
@@ -172,20 +176,20 @@ You can observe the following.
 - Emissions of Previous Period (4)
 - Variance % compared to last year (5)
 
-<img src="images/img18-performance-1.png">
-<img src="images/img18-performance-2.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/JO2vqHl2XcR_K8easI7a9w/img18-performance-1.png)
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/NcAZ5fXGGqB4HHZzC3uL2g/img18-performance-2.png)
 
-<img src="images/img18-performance-3.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/cVBrUYHBe2pVWMFhPKo1fg/img18-performance-3.png)
 
-<img src="images/img18-performance-4.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/bizoW7tjV3fU7N4opOONjg/img18-performance-4.png)
 
 
 ### 3.4 View Account Performance
 
 The Account level Performance is available here.
 
-<img src="images/img71-account-performance-1.png">
-<img src="images/img71-account-performance-2.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/VbPr5FZgqH7v4R-XneHXSQ/img71-account-performance-1.png)
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/NumM2KL3KhnRaHqKGPDA-g/img71-account-performance-2.png)
 
 
 ### 3.5 View Emission Performance
@@ -196,24 +200,24 @@ Here the filter is applied to the group `Royal Horizon Travel`
 
 You can see the Total emissions (1), scope split-up (2) and other details.
 
-<img src="images/img20-emission-performance-1.png">
-<img src="images/img20-emission-performance-2.png">
-<img src="images/img20-emission-performance-3.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/ssdQWczbhfbt4vzjcnasVw/img20-emission-performance-1.png)
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/CImQReqwk6-wYqe_ouCTSA/img20-emission-performance-2.png)
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/3UbBNkhPz2MiR7ffXXugiQ/img20-emission-performance-3.png)
 
 The detailed Scope 1 table is available here.
-<img src="images/img20-emission-performance-4.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/DADYJDvHnnmanHy-riHMgQ/img20-emission-performance-4.png)
 
 The detailed Scope 2 table is available here.
-<img src="images/img20-emission-performance-5.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/N1VOkN6iIi90OIL3LZB-TQ/img20-emission-performance-5.png)
 
 The detailed Scope 3 table is available here.
-<img src="images/img20-emission-performance-6.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/7vpp6Ict6m_81TTn2q-cHA/img20-emission-performance-6.png)
 
 ### 3.6 View Custom Account Style and Account Mapping
 
 You can see that the custom account styles created earlier are mapped to the accounts here.
 
-<img src="images/img70-acc-style-6.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/CRtEM4Qqs8RU40tjvil4EA/img70-acc-style-6.png)
 
 ## 4. Custom Emission Factors
 
@@ -228,7 +232,7 @@ You can see that the custom account styles created earlier are mapped to the acc
     - The total emission value of the Data type (4)
     - The effective period of the factor (5)
 
-    <img src="images/img30-custom-factor-1.png">
+    ![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/W2CQy3LS_UbnCr2L4yDoOQ/img30-custom-factor-1.png)
 
 ### 4.2 View the factor mapping
 
@@ -244,7 +248,7 @@ The Emission factor created above is mapped to the Account based on the Region a
 
     Note: A weekly server refresh is required for the newly created custom factor to take effect.
 
-<img src="images/img30-custom-factor-4.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/vlB6rKXJ5G9K2c08rNSYHw/img30-custom-factor-4.png)
 
 
 ## 5. Programs and Actions
@@ -255,11 +259,11 @@ The programs, action plans and actions can be created for decarbonization as fol
 
 1. Create the following Program 
 
-<img src="images/img35-programs-1.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/r3EbV_J8TyRSNrv7DOBvfA/img35-programs-1.png)
 
 2. Create the action plan for the program created above
 
-<img src="images/img35-programs-2-action-plan-1.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/LopvwfB7MDfS6_ab4m7X2A/img35-programs-2-action-plan-1.png)
 
 3. Create the actions for the action plan created above
 
@@ -268,14 +272,14 @@ The programs, action plans and actions can be created for decarbonization as fol
     - associated location (2) 
     - data type (3)
 
-<img src="images/img35-programs-3-action-1.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/DidVfU0rJBPOYaP1mNiUFg/img35-programs-3-action-1.png)
 
 ### 5.2 View Programs Summary
 
 The Program Summary page displays various programs and their status details
 
-<img src="images/img35-program-summary-1.png">
-<img src="images/img35-program-summary-2.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/7bZgy4CN6YpKXrc0ZCiptw/img35-program-summary-1.png)
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/t3KOG8dtcS8EU2e-8dlPZA/img35-program-summary-2.png)
 
 ## 6. Targets Setting and Tracking
 
@@ -283,15 +287,15 @@ The Program Summary page displays various programs and their status details
 
 1. Create the following Target
 
-<img src="images/img40-targets-1.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/NGeafqnhlbXil_swLEbpHA/img40-targets-1.png)
 
 2. Create the full period target data as follows
 
-<img src="images/img40-targets-3.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/GAdwBR97SuqdvwtzQcEu6w/img40-targets-3.png)
 
 3. Create the monthly target data like this
 
-<img src="images/img40-targets-4.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/CveoekXHhnEh145ZNNMyQQ/img40-targets-4.png)
 
 ## 7. Sustainability Reporting Manager
 
@@ -303,15 +307,15 @@ The Sustainability Reporting Manager helps to create sustainability disclosure r
     - Disclosure name (1)
     - The framework included (2) in the report.
     - The number of questions (3) in the report
-<img src="images/img45-srm-1.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/2jTfhCfcCGoJYc3EFwevzQ/img45-srm-1.png)
 
 ### 7.2 View Disclosure 
 
 Here is a disclosure that includes 12 GRI questions.
 
-<img src="images/img45-srm-2-disclousure-1.png">
-<img src="images/img45-srm-2-disclousure-2.png">
-<img src="images/img45-srm-2-disclousure-3.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/obq9Ixop6crehc62b7FCAg/img45-srm-2-disclousure-1.png)
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/nAr4f_iLiuEpfVT8l1O1WA/img45-srm-2-disclousure-2.png)
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/PJkApgRlbWJwc2xIYr5ZnA/img45-srm-2-disclousure-3.png)
 
 ### 7.3 View Question 
 
@@ -320,10 +324,10 @@ A detailed view of the question is displayed here
 - Name/description of the question (1)
 - Response to the question to be filled here (2)
 - Envizi guidance (3), shows where to find the answer to the question
-<img src="images/img45-srm-3-question-1.png">
-<img src="images/img45-srm-3-question-2.png">
-<img src="images/img45-srm-3-question-3.png">
-<img src="images/img45-srm-3-question-4.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/T8h0F8MdYit7oJ8RAYjjKw/img45-srm-3-question-1.png)
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/GInXG67k83awMu7UwSIp9A/img45-srm-3-question-2.png)
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/Hrc07ornebBRNN8iPSlujQ/img45-srm-3-question-3.png)
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/0rF2BCaLUJ2WjR72Qqoylg/img45-srm-3-question-4.png)
 
 ## 8. View Reports 
 
@@ -340,17 +344,17 @@ You can observe the following details.
 
 2. Click on the `Select a category to enable drill through navigation` (5) button to see the details.
 
-<img src="images/img50-scope3-emissions-1.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/9TbRV1yER5YYt_yXuORWnA/img50-scope3-emissions-1.png)
 
 It shows the `Scope 3 - Category 7 employee commuting` details.
 
 Location-wise details are available here.
 
-<img src="images/img50-scope3-emissions-2.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/jsPvI7PqDjjCo6OZrqFAmA/img50-scope3-emissions-2.png)
 
 Datatype-wise graph is shown here.
 
-<img src="images/img50-scope3-emissions-3.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/aBtW-13AuEKV5wXzU0P4TA/img50-scope3-emissions-3.png)
 
 ### 8.2. Sustainability Executive Report
 
@@ -358,32 +362,38 @@ The Sustainability Executive Report is available here.
 
 It shows the Emissions (1), Energy (2), Waste (3) and other details.
 
-<img src="images/img60-sus-executive-report-1.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/36wLJH-uBmVl-gNrPeZ-kQ/img60-sus-executive-report-1.png)
 
 The emissions page shows the `scope 1`  (1), ` scope 2`  (2), ` scope 3`  (3) emission details here.
 
 It also shows the location wise (4) details.
 
-<img src="images/img60-sus-executive-report-2.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/9oMJkyEedk5ES3W9uVSSZQ/img60-sus-executive-report-2.png)
 
 Here is the Energy details.
 
-<img src="images/img60-sus-executive-report-3.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/RbxA7oY3qcyVfrPmdzypaQ/img60-sus-executive-report-3.png)
 
 Here is the Wastage details.
 
-<img src="images/img60-sus-executive-report-4.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/SWOlY_YA9LSVYmqyUp0gaA/img60-sus-executive-report-4.png)
 
 ### 8.3 Monthly Data Summary Report
 
 You can select the appropriate filter to view the Monthly Data Summary report.
 
 - The `Royal-Horizon-Travel` group is selected here
-<img src="images/img55-monthly-data-summary-report-1.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/1hPvC8GzqpbGd_U6QdOX8g/img55-monthly-data-summary-report-1.png)
 
 It shows the report here.
-<img src="images/img55-monthly-data-summary-report-2.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/ckXRbFi-aEjI5YuDUCWNcg/img55-monthly-data-summary-report-2.png)
 
 The monthly data is shown here.
-<img src="images/img55-monthly-data-summary-report-3.png">
+![image](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/dqdtq5tD96GJgeuMDiWNGg/img55-monthly-data-summary-report-3.png)
 
+
+## Summary and next steps
+
+In conclusion, IBM Envizi ESG Suite provides different features that Travel and Transportation Industry can leverage for their Sustainability Journey.
+
+To get more information about IBM Envizi or to try it out yourself, start your [14-day IBM Envizi ESG Suite trial](https://www.ibm.com/account/reg/us-en/signup?utm_source=skills_network&utm_content=in_lab_content_link&utm_id=Lab-504&formid=urx-51938&cm_sp=ibmdev-_-developer-_-trial). 
