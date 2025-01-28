@@ -2,7 +2,7 @@
 
 In this tutorial, let's explore how IBM Envizi ESG Suite is helping to manage sustainability data for the Travel and Transportation industry.
 
-## Introduction 
+## Backgroud 
 The transportation sector is a major contributor to global greenhouse gases. And over the past decade, governments and private businesses have been cooperating to create a more sustainable infrastructure for moving people and materials across our planet.
 
 The `Royal Horizon Travel` has committed to being carbon netural in their operations by 2040.
@@ -62,49 +62,53 @@ It shows the different account style with `scope`, `data type` and etc.
 
 1. Create the below 3 custom account styles along with the given Data type
 
-- Cus-S3-Computer-and-Electronic-Products-[USD]           ---         Computer and electronic products [USD]
-- Cus-S3-Paper-and-Cardboard-[t]                          ---         Waste - Paper and Cardboard [t]
-- Cus-S3-Waste-Recycled-[kg]                              ---         Waste Recycled - Mixed Recyclables [kg]
+    - Cus-S3-Computer-and-Electronic-Products-[USD]           ---         Computer and electronic products [USD]
+    - Cus-S3-Paper-and-Cardboard-[t]                          ---         Waste - Paper and Cardboard [t]
+    - Cus-S3-Waste-Recycled-[kg]                              ---         Waste Recycled - Mixed Recyclables [kg]
 
-<img src="images/img70-acc-style-2.png">
+    <img src="images/img70-acc-style-2.png">
 
-The details of the account styles would looks like this.
-<img src="images/img70-acc-style-3.png">
-<img src="images/img70-acc-style-4.png">
-<img src="images/img70-acc-style-5.png">
+    The details of the account styles would looks like this.
+    <img src="images/img70-acc-style-3.png">
+    <img src="images/img70-acc-style-4.png">
+    <img src="images/img70-acc-style-5.png">
 
 ### 2.2 Create Groups and Locations
 
-1. Create the Groups and Locations by uploading the SetupConfig excel [file](./files/Envizi_SetupConfig_RHT.xlsx) (modify the file content as needed)
+1. Replace the `Organization` columns in the below file according to your environment.
 
-The status of the uploaded file will appear as below.
+    - [Envizi_SetupConfig_RHT.xlsx](./files/Envizi_SetupConfig_RHT.xlsx)
 
-<img src="images/img90-file-upload-1.png">
+2. Create the Groups and Locations by uploading the above file.
 
-The groups are created and displayed on the Groups screen
+    The status of the uploaded file will appear as below.
 
-<img src="images/img13-groups.png">
+    <img src="images/img90-file-upload-1.png">
 
-The locations are created and displayed on the Location screen
+    The groups are created and displayed on the Groups screen
 
-<img src="images/img14-locations.png">
+    <img src="images/img13-groups.png">
+
+    The locations are created and displayed on the Location screen
+
+    <img src="images/img14-locations.png">
 
 ### 2.3 Create Accounts and Data
 
 1. Replace the `Organization Link`, `Organization` and `Account Style Link` columns in the below file according to your environment.
 
-- [POCAccountSetupandDataLoad_RHT.xlsx](./files/POCAccountSetupandDataLoad_RHT.xlsx)
-- [Account_Setup_and_Data_Load_-_PM&C-RHT.xlsx](./files/POCAccountSetupandDataLoad_RHT.xlsx). 
+    - [POCAccountSetupandDataLoad_RHT.xlsx](./files/POCAccountSetupandDataLoad_RHT.xlsx)
+    - [Account_Setup_and_Data_Load_-_PM&C-RHT.xlsx](./files/POCAccountSetupandDataLoad_RHT.xlsx). 
 
 2. Upload the above files in Envizi to create the Accounts and Data. 
 
-The status of the uploaded file will appear as below.
+    The status of the uploaded file will appear as below.
 
-<img src="images/img90-file-upload-2.png">
+    <img src="images/img90-file-upload-2.png">
 
-The below accounts are created and available on the Accounts screen.
+    The below accounts are created and available on the Accounts screen.
 
-<img src="images/img15-accounts.png">
+    <img src="images/img15-accounts.png">
 
 ## 3. View Dashboards
 
@@ -118,17 +122,17 @@ The organizational hierarchy with the newly created Groups, Locations, and Accou
 
 1. Open the Account Summary page for the `RHT-Bagaage-Tractors-London-Transport` account.
 
-The account summary page will look like this. 
+    The account summary page will look like this. 
 
-You can observe the following.
-- Account Name (1)
-- Account style of the account (2)
-- Total consumption (3)
-- Month wise consumption (4)
-- Records entered for the last 12 months (5)
+    You can observe the following.
+    - Account Name (1)
+    - Account style of the account (2)
+    - Total consumption (3)
+    - Month wise consumption (4)
+    - Records entered for the last 12 months (5)
 
-<img src="images/img16-account-summary-1.png">
-<img src="images/img16-account-summary-2.png">
+    <img src="images/img16-account-summary-1.png">
+    <img src="images/img16-account-summary-2.png">
 
 #### Records
 
@@ -217,14 +221,14 @@ You can see that the custom account styles created earlier are mapped to the acc
 
 1. Create the below 4 custom factors.
 
-The key fields to note are as follows.
-- Region of the custom factor belongs to (1)
-- The data type it belongs to (2)
-- The name of the factor (3)
-- The total emission value of the Data type (4)
-- The effective period of the factor (5)
+    The key fields to note are as follows.
+    - Region of the custom factor belongs to (1)
+    - The data type it belongs to (2)
+    - The name of the factor (3)
+    - The total emission value of the Data type (4)
+    - The effective period of the factor (5)
 
-<img src="images/img30-custom-factor-1.png">
+    <img src="images/img30-custom-factor-1.png">
 
 ### 4.2 View the factor mapping
 
@@ -233,19 +237,19 @@ The Emission factor created above is mapped to the Account based on the Region a
 1. Open the  `Account > Monthly Data` screen for the account `RHT-Aircraft-Hangars-London-Electricity`
 
 2. Observe the following mapping.
+    - Account : `RHT-Aircraft-Hangars-London-Electricity` (1) 
+    - Emission Factor : ` RHT-CF-UK-Factor-Electricity`  (2), (5)
+    - Factor value : 0.8 (3), (6)
+    - Region : UK (4)
 
-- Account : `RHT-Aircraft-Hangars-London-Electricity` (1) 
-- Emission Factor : ` RHT-CF-UK-Factor-Electricity`  (2), (5)
-- Factor value : 0.8 (3), (6)
-- Region : UK (4)
+    Note: A weekly server refresh is required for the newly created custom factor to take effect.
 
 <img src="images/img30-custom-factor-4.png">
 
-Note: A weekly server refresh is required for the newly created custom factor to take effect.
 
 ## 5. Programs and Actions
 
-The programs, action plans, and actions can be created for decarbonization as follows
+The programs, action plans and actions can be created for decarbonization as follows
 
 ### 5.1 Create Programs and Actions
 
@@ -259,10 +263,10 @@ The programs, action plans, and actions can be created for decarbonization as fo
 
 3. Create the actions for the action plan created above
 
-The key fields to note are as follows.
- - action name (1), 
- - associated location (2) 
- - data type (3)
+    The key fields to note are as follows.
+    - action name (1), 
+    - associated location (2) 
+    - data type (3)
 
 <img src="images/img35-programs-3-action-1.png">
 
@@ -291,22 +295,25 @@ The Program Summary page displays various programs and their status details
 
 ## 7. Sustainability Reporting Manager
 
-The Sustainability Reporting Manager displays a list of sustainability disclosure reports.
+The Sustainability Reporting Manager helps to create sustainability disclosure reports.
 
 ### 7.1 Create Disclosure 
 
 1. Create a disclosure with the following information.
-
-- Disclosure name (1)
-- The framework included (2) in the report.
-- The number of questions (3) in the report
+    - Disclosure name (1)
+    - The framework included (2) in the report.
+    - The number of questions (3) in the report
 <img src="images/img45-srm-1.png">
+
+### 7.2 View Disclosure 
 
 Here is a disclosure that includes 12 GRI questions.
 
 <img src="images/img45-srm-2-disclousure-1.png">
 <img src="images/img45-srm-2-disclousure-2.png">
 <img src="images/img45-srm-2-disclousure-3.png">
+
+### 7.3 View Question 
 
 A detailed view of the question is displayed here
 
@@ -329,9 +336,9 @@ You can observe the following details.
 - Scope 1 emissions (2)
 - Scope 2 emissions (3)
 
-Choose the category `7 employee commuting` (4) 
+1. Choose the category `7 employee commuting` (4) 
 
-Click on the `Select a category to enable drill through navigation` (5) button to see the details.
+2. Click on the `Select a category to enable drill through navigation` (5) button to see the details.
 
 <img src="images/img50-scope3-emissions-1.png">
 
@@ -379,4 +386,6 @@ It shows the report here.
 
 The monthly data is shown here.
 <img src="images/img55-monthly-data-summary-report-3.png">
+
+## Reference
 
