@@ -32,8 +32,7 @@ The asset showcases how IBM Envizi to help automate, capture, and structure your
 - Enables the CSO’s to track and report  on GHG Emissions aligning to different regulatory frameworks.
 
 
-In this article, we cover the following topics.
-
+This article covers the following topics.
 - Define and Create Organization Hierarchy and Data
 - View Dashboards
 - Custom Emission Factors
@@ -52,11 +51,11 @@ We are going to create a data model like this.
 
 <img src="images/img11-data-model.png">
 
-## 2. Create Account styles, Groups, Locations, Accounts and Data
+## 2 Create Account styles, Groups, Locations, Accounts and Data
 
 ### 2.1 Create Account styles
 
-Here is the list of account styles available in this instance of Envizi.
+Here is the list of existing account styles in Envizi.
 
 It shows the different account style with `scope`, `data type` and etc.
 <img src="images/img70-acc-style-1.png">
@@ -69,42 +68,41 @@ It shows the different account style with `scope`, `data type` and etc.
 
 <img src="images/img70-acc-style-2.png">
 
-The details of the account styles looks like this.
+The details of the account styles would looks like this.
 <img src="images/img70-acc-style-3.png">
 <img src="images/img70-acc-style-4.png">
 <img src="images/img70-acc-style-5.png">
 
-#### Custom Account Style and Account Mapping
-
-The custom account styles are mapped to few Accounts here.
-
-<img src="images/img70-acc-style-6.png">
-
 ### 2.2 Create Groups and Locations
 
-1. Create the Groups and Locations by uploading this setup config excel [file](./files/Envizi_SetupConfig_RHT.xlsx) (change the file content according do your need)
+1. Create the Groups and Locations by uploading the SetupConfig excel [file](./files/Envizi_SetupConfig_RHT.xlsx) (modify the file content as needed)
 
-The file upload status would be like this.
+The status of the uploaded file will appear as below.
+
 <img src="images/img90-file-upload-1.png">
 
-The below groups get created and available in the Groups screen.
+The groups are created and displayed on the Groups screen
 
 <img src="images/img13-groups.png">
 
-The below location get created and available in the Location screen.
+The locations are created and displayed on the Location screen
 
 <img src="images/img14-locations.png">
 
 ### 2.3 Create Accounts and Data
 
-1. Create the Accounts and Data by uploading the below files.
+1. Replace the `Organization Link`, `Organization` and `Account Style Link` columns in the below file according to your environment.
 
 - [POCAccountSetupandDataLoad_RHT.xlsx](./files/POCAccountSetupandDataLoad_RHT.xlsx)
-- [Account_Setup_and_Data_Load_-_PM&C-RHT.xlsx](./files/POCAccountSetupandDataLoad_RHT.xlsx)  . Replace the `Organization Link`,    `Organization` and `Account Style Link` columns according to your environment.
+- [Account_Setup_and_Data_Load_-_PM&C-RHT.xlsx](./files/POCAccountSetupandDataLoad_RHT.xlsx). 
+
+2. Upload the above files in Envizi to create the Accounts and Data. 
+
+The status of the uploaded file will appear as below.
 
 <img src="images/img90-file-upload-2.png">
 
-The below accounts get created and available in Accounts screen.
+The below accounts are created and available on the Accounts screen.
 
 <img src="images/img15-accounts.png">
 
@@ -112,13 +110,13 @@ The below accounts get created and available in Accounts screen.
 
 ### 3.1 View Organization Hierarchy
 
-The org hierarchy with the above created Groups/Locations/Accounts would be like this.
+The organizational hierarchy with the newly created Groups, Locations, and Accounts will look like this.
 
 <img src="images/img12-org-hierarchy.png">
 
 ###  3.2 View Account Summary
 
-1. Open the Account Summary page of the `RHT-Bagaage-Tractors-London-Transport` account.
+1. Open the Account Summary page for the `RHT-Bagaage-Tractors-London-Transport` account.
 
 The account summary page will look like this. 
 
@@ -134,15 +132,15 @@ You can observe the following.
 
 #### Records
 
-Records page list all the records created for this account.
+The Records page lists all the records created for this account.
 
-Contains the information like start period, end period (1) and quantity (2).
+It contains information such as the start period, end period (1), and quantity (2).
 
 <img src="images/img16-account-summary-3.png">
 
 #### Monthly Data
 
-Monthly Data screen shows the monthlwise data for this account.
+The Monthly Data screen displays the monthly data for this account.
 
 It also shows the emission factor set mapped to the account.
 
@@ -161,7 +159,7 @@ You can observe the following.
 
 ### 3.3 View Org Level Performance 
 
-The performance dashboard shows the emission details for the entire organization. Here the filter is applied to the group `Royal Horizon Travel`
+The Performance Dashboard displays the emission details for the entire organization. Here the filter is applied to the group `Royal Horizon Travel`
 
 You can observe the following.
 - Groups filter (1)
@@ -188,30 +186,30 @@ The Account level Performance is available here.
 
 ### 3.5 View Emission Performance
 
-The emission performance dashboard shows the emission details for the entire organization. 
+The Emission Performance Dashboard displays the emission details for the entire organization.
 
 Here the filter is applied to the group `Royal Horizon Travel`
 
-You can see the Total emissions (1), scope split-up (2) and  other details.
+You can see the Total emissions (1), scope split-up (2) and other details.
 
 <img src="images/img20-emission-performance-1.png">
 <img src="images/img20-emission-performance-2.png">
 <img src="images/img20-emission-performance-3.png">
 
-The detailed scope 1 table is available here.
+The detailed Scope 1 table is available here.
 <img src="images/img20-emission-performance-4.png">
 
-The detailed scope 2 table is available here.
+The detailed Scope 2 table is available here.
 <img src="images/img20-emission-performance-5.png">
 
-The detailed scope 3 table is available here.
+The detailed Scope 3 table is available here.
 <img src="images/img20-emission-performance-6.png">
 
-### 3.6 View Custom Factor mapping
+### 3.6 View Custom Account Style and Account Mapping
 
-You can see the above created custom account styles are mapped to Accounts here.
+You can see that the custom account styles created earlier are mapped to the accounts here.
 
-<img src="images/img70-acc-style-6.png.png">
+<img src="images/img70-acc-style-6.png">
 
 ## 4. Custom Emission Factors
 
@@ -230,7 +228,7 @@ The key fields to note are as follows.
 
 ### 4.2 View the factor mapping
 
-The above created Emission factor is mapped to the Account based on the Region, effective date.
+The Emission factor created above is mapped to the Account based on the Region and Effective date
 
 1. Open the  `Account > Monthly Data` screen for the account `RHT-Aircraft-Hangars-London-Electricity`
 
@@ -243,21 +241,23 @@ The above created Emission factor is mapped to the Account based on the Region, 
 
 <img src="images/img30-custom-factor-4.png">
 
+Note: A weekly server refresh is required for the newly created custom factor to take effect.
+
 ## 5. Programs and Actions
 
-The Programs, Actions Plans and Actions can be created like this for the decarbonization.
+The programs, action plans, and actions can be created for decarbonization as follows
 
 ### 5.1 Create Programs and Actions
 
-1. Create the below Program 
+1. Create the following Program 
 
 <img src="images/img35-programs-1.png">
 
-2. Create the Action Plan for the above created program
+2. Create the action plan for the program created above
 
 <img src="images/img35-programs-2-action-plan-1.png">
 
-3. Create the Actions for the above action plan
+3. Create the actions for the action plan created above
 
 The key fields to note are as follows.
  - action name (1), 
@@ -268,7 +268,7 @@ The key fields to note are as follows.
 
 ### 5.2 View Programs Summary
 
-The Program summary page shows the various programs and it status details.
+The Program Summary page displays various programs and their status details
 
 <img src="images/img35-program-summary-1.png">
 <img src="images/img35-program-summary-2.png">
@@ -277,11 +277,11 @@ The Program summary page shows the various programs and it status details.
 
 ### 6.1 Create Targets
 
-1. Create the below Target
+1. Create the following Target
 
 <img src="images/img40-targets-1.png">
 
-2. Create the full period target data like this
+2. Create the full period target data as follows
 
 <img src="images/img40-targets-3.png">
 
@@ -291,28 +291,28 @@ The Program summary page shows the various programs and it status details.
 
 ## 7. Sustainability Reporting Manager
 
-The sustainability reporting manager shows the list of sustainability disclosure reports.
+The Sustainability Reporting Manager displays a list of sustainability disclosure reports.
 
 ### 7.1 Create Disclosure 
 
-1. Create Disclosure with the following info.
+1. Create a disclosure with the following information.
 
 - Disclosure name (1)
 - The framework included (2) in the report.
 - The number of questions (3) in the report
 <img src="images/img45-srm-1.png">
 
-Here is a disclosure that contains 12 GRI questions.
+Here is a disclosure that includes 12 GRI questions.
 
 <img src="images/img45-srm-2-disclousure-1.png">
 <img src="images/img45-srm-2-disclousure-2.png">
 <img src="images/img45-srm-2-disclousure-3.png">
 
-A detailed view of a question is displayed here.
+A detailed view of the question is displayed here
 
 - Name/description of the question (1)
 - Response to the question to be filled here (2)
-- Envizi guidance (3), shows where to get the answer to the question 
+- Envizi guidance (3), shows where to find the answer to the question
 <img src="images/img45-srm-3-question-1.png">
 <img src="images/img45-srm-3-question-2.png">
 <img src="images/img45-srm-3-question-3.png">
@@ -324,8 +324,7 @@ A detailed view of a question is displayed here.
 
 The Scope 3 Emissions report is available here.
 
-You observe the below details.
-
+You can observe the following details.
 - Scope 3 emissions (1)
 - Scope 1 emissions (2)
 - Scope 2 emissions (3)
@@ -338,11 +337,11 @@ Click on the `Select a category to enable drill through navigation` (5) button t
 
 It shows the `Scope 3 - Category 7 employee commuting` details.
 
-Location wise details available here.
+Location-wise details are available here.
 
 <img src="images/img50-scope3-emissions-2.png">
 
-Datatype wise graph is shown here.
+Datatype-wise graph is shown here.
 
 <img src="images/img50-scope3-emissions-3.png">
 
@@ -370,7 +369,7 @@ Here is the Wastage details.
 
 ### 8.3 Monthly Data Summary Report
 
-You can select the appropriate filter to choose the Monthly Data Summary report.
+You can select the appropriate filter to view the Monthly Data Summary report.
 
 - The `Royal-Horizon-Travel` group is selected here
 <img src="images/img55-monthly-data-summary-report-1.png">
